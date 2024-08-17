@@ -10,6 +10,13 @@ body {
 a {
     text-decoration: none;
 }
+
+@media (min-width: 576px) {
+    .dropdown:hover .dropdown-menu {
+        display: block;
+        margin-top: 0;
+    }
+  }
 .bg-image {
     background-image: url(./Assets/imgs/HeroImage.png);
     background-size: cover;
@@ -73,12 +80,25 @@ a {
     background-image: url(./Assets/imgs/HeroImage.png);
     background-size: cover;
     background-position: center;
-    height: 60vh;
-    min-height: 700px;
+    height: 40vh;
+    min-height: 500px;
     max-height: 1200px;
   }
   #accordion { 
     border: 10px solid #383838;
+}
+#projects {
+    background-image: url(./Assets/imgs/chip2.png);
+    background-position: center;
+    background-size: cover;
+}
+#support {
+    height: 50vh;
+    min-height: 600px;
+}
+#contracts {
+    height: 50vh;
+    min-height: 600px;
 }
   #contact-intro {
     background-image: url(./Assets/imgs/HeroImage.png);

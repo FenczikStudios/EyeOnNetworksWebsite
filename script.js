@@ -8,3 +8,4 @@ tooltips.forEach(t => {
     new bootstrap.Tooltip(t);
 
 });
+
