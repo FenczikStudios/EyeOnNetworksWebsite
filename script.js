@@ -12,9 +12,7 @@ tooltips.forEach(t => {
 function navigateToServices() {
     if (window.innerWidth > 768) {
         window.location.href = 'services.html#intro';
-    } else {
-        alert('This feature is only available on larger screens.');
-    }
+    } 
 }
 
 //Services Nav Button
