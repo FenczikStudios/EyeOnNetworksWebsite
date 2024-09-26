@@ -17,6 +17,7 @@ function navigateToServices() {
     } 
 }
 
+
 document.addEventListener('DOMContentLoaded', function() {
     const servicesNavBtn = document.getElementById('services-nav-btn');
     if (servicesNavBtn) {
