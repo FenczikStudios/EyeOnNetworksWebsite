@@ -9,13 +9,13 @@ tooltips.forEach(t => {
 
 });
 
+
+//Services Nav Button
 function navigateToServices() {
     if (window.innerWidth > 768) {
         window.location.href = 'services.html#intro';
     } 
 }
-
-//Services Nav Button
 
 document.addEventListener('DOMContentLoaded', function() {
     const servicesNavBtn = document.getElementById('services-nav-btn');
