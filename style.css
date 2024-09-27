@@ -20,9 +20,9 @@ a {
 .bg-image {
     background-image: url(./Assets/imgs/HeroImage.png);
     background-size: cover;
-    background-position: center;
+    background-position: top;
     height: 60vh;
-    min-height: 700px;
+    min-height: 800px;
     max-height: 1200px;
 }
 @media (max-width: 768px) {
